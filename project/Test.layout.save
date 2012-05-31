@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="CreateObject.hpp" open="0" top="0" tabpos="6">
+		<Cursor position="5742" topLine="207" />
+	</File>
+	<File name="Fenettre.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="3549" topLine="93" />
+	</File>
+	<File name="Fenettre.hpp" open="1" top="0" tabpos="4">
+		<Cursor position="232" topLine="9" />
+	</File>
+	<File name="FreeFlyCamera.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="52" topLine="0" />
+	</File>
+	<File name="FreeFlyCamera.hpp" open="0" top="0" tabpos="3">
+		<Cursor position="816" topLine="6" />
+	</File>
+	<File name="ObGL.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2462" topLine="41" />
+	</File>
+	<File name="ObGL.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="83" topLine="0" />
+	</File>
+	<File name="Object.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="792" topLine="15" />
+	</File>
+	<File name="Object.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="1031" topLine="12" />
+	</File>
+	<File name="ShaderProgram.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2184" topLine="47" />
+	</File>
+	<File name="ShaderProgram.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="275" topLine="0" />
+	</File>
+	<File name="main.cpp" open="1" top="1" tabpos="3">
+		<Cursor position="335" topLine="0" />
+	</File>
+	<File name="shader/mur.frag" open="0" top="0" tabpos="0">
+		<Cursor position="280" topLine="0" />
+	</File>
+	<File name="shader/mur.vert" open="0" top="0" tabpos="0">
+		<Cursor position="214" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>
