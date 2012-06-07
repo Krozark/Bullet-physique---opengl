@@ -4,7 +4,7 @@
 int main ( int argc, char **argv )
 {
 	// On crée notre fenâtre grâce à SFML
-    Fenettre Windows(sf::VideoMode( 1200, 900, 32 ), "SFML : Bullet physics");
+    Fenettre Windows(sf::VideoMode( 1600, 900, 32 ), "SFML : Bullet physics");
     srand(time(NULL));
 
 	/// box ///////////////////////////////////////////

@@ -45,7 +45,7 @@ btDefaultMotionState *MotionState;
 
 Fenettre::Fenettre (sf::VideoMode Mode,std::string nom,float FrameTime) : sf::Window(Mode,nom,sf::Style::Titlebar | sf::Style::Resize | sf::Style::Close,sf::ContextSettings(32))
 {
-    SetFramerateLimit(FrameTime);
+    setFramerateLimit(FrameTime);
     Init();
 };
 
@@ -102,7 +102,7 @@ void Fenettre::Init()
 
     /// Initialisation des shaders
 
-    SetActive();
+    setActive();
 
     Prog[0] = new ShaderProgram("shader/mur.frag",sf::Shader::Fragment);
     Prog[0]->setTexture("Texture_Col","textures/Fieldstone.jpg");
@@ -114,7 +114,7 @@ void Fenettre::Init()
 
 
     /// Initialisation des truc perso
-    ShowMouseCursor(false);
+    setMouseCursorVisible(false);
     camera = new FreeFlyCamera(btVector3(-5,20,0));
 };
 
@@ -169,41 +169,41 @@ void Fenettre::RenderMe()
     #endif
     bool run = false;
     PositionCamera();
-    while(IsOpen())
+    while(isOpen())
 	{
         sf::Event event;
-        while(PollEvent(event))
+        while(pollEvent(event))
         {
-            if (event.Type == sf::Event::Closed)
+            if (event.type == sf::Event::Closed)
             {
-                Close();
+                close();
             }
-            else if ((event.Type == sf::Event::KeyPressed) && (event.Key.Code == sf::Keyboard::Escape))
+            else if ((event.type == sf::Event::KeyPressed) && (event.key.code == sf::Keyboard::Escape))
             {
-                Close();
+                close();
             }
-            else if ((event.Type == sf::Event::KeyPressed) && (event.Key.Code == sf::Keyboard::Space))
+            else if ((event.type == sf::Event::KeyPressed) && (event.key.code == sf::Keyboard::Space))
             {
                 run = !run;
             }
-            else if ((event.Type == sf::Event::KeyPressed) && (event.Key.Code == sf::Keyboard::R))
+            else if ((event.type == sf::Event::KeyPressed) && (event.key.code == sf::Keyboard::R))
             {
                 camera->setPosition(btVector3(-100,50,0));
             }
             // Adjust the viewport when the window is resized
-            else if (event.Type == sf::Event::Resized)
+            else if (event.type == sf::Event::Resized)
             {
-                glViewport(0, 0, event.Size.Width, event.Size.Height);
+                glViewport(0, 0, event.size.width, event.size.height);
             }
-            else if (run && event.Type == sf::Event::MouseMoved)
+            else if (run && event.type == sf::Event::MouseMoved)
             {
                 camera->MouseMoved();
             }
-            else if (run && event.Type == sf::Event::MouseWheelMoved)
+            else if (run && event.type == sf::Event::MouseWheelMoved)
             {
                 camera->MouseWheelMoved(event);
             }
-            else if (run && event.Type == sf::Event::MouseButtonPressed)
+            else if (run && event.type == sf::Event::MouseButtonPressed)
             {
                 shootBox(camera->GetCible());
             }
@@ -228,7 +228,7 @@ void Fenettre::RenderMe()
 
 		RenderScene();
 		glFlush();
-		Display();
+		display();
 	}
 };
 

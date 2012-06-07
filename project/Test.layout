@@ -4,14 +4,14 @@
 	<File name="CreateObject.hpp" open="0" top="0" tabpos="6">
 		<Cursor position="5742" topLine="207" />
 	</File>
-	<File name="Fenettre.cpp" open="1" top="1" tabpos="11">
-		<Cursor position="4898" topLine="163" />
+	<File name="Fenettre.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="6584" topLine="212" />
 	</File>
-	<File name="Fenettre.hpp" open="1" top="0" tabpos="10">
+	<File name="Fenettre.hpp" open="1" top="0" tabpos="2">
 		<Cursor position="150" topLine="0" />
 	</File>
-	<File name="FreeFlyCamera.cpp" open="0" top="0" tabpos="4">
-		<Cursor position="52" topLine="0" />
+	<File name="FreeFlyCamera.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="2142" topLine="53" />
 	</File>
 	<File name="FreeFlyCamera.hpp" open="0" top="0" tabpos="3">
 		<Cursor position="816" topLine="6" />
@@ -28,14 +28,14 @@
 	<File name="Object.hpp" open="0" top="0" tabpos="4">
 		<Cursor position="1031" topLine="12" />
 	</File>
-	<File name="ShaderProgram.cpp" open="0" top="0" tabpos="0">
-		<Cursor position="2184" topLine="47" />
+	<File name="ShaderProgram.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="2365" topLine="57" />
 	</File>
-	<File name="ShaderProgram.hpp" open="0" top="0" tabpos="10">
+	<File name="ShaderProgram.hpp" open="1" top="0" tabpos="4">
 		<Cursor position="305" topLine="0" />
 	</File>
-	<File name="main.cpp" open="1" top="0" tabpos="9">
-		<Cursor position="335" topLine="0" />
+	<File name="main.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="166" topLine="0" />
 	</File>
 	<File name="shader/mur.frag" open="0" top="0" tabpos="0">
 		<Cursor position="280" topLine="0" />

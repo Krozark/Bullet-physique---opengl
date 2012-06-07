@@ -44,6 +44,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Linker>
+			<Add library="sfml-system" />
+			<Add library="sfml-graphics" />
+			<Add library="sfml-window" />
+		</Linker>
 		<Unit filename="CreateObject.hpp" />
 		<Unit filename="Fenettre.cpp" />
 		<Unit filename="Fenettre.hpp" />

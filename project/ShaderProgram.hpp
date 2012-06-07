@@ -13,12 +13,12 @@ class ShaderProgram
         ShaderProgram(const char *Vert,const char *Frag);
         ~ShaderProgram();
 
-        inline void Bind(){for(int i = Tab_Shader.size()-1;i>=0;--i)Tab_Shader[i]->Bind();};
-        inline void Unbind(){for(int i = Tab_Shader.size()-1;i>=0;--i)Tab_Shader[i]->Unbind();};
+        inline void Bind(){for(int i = Tab_Shader.size()-1;i>=0;--i)Tab_Shader[i]->bind();};
+        inline void Unbind(){for(int i = Tab_Shader.size()-1;i>=0;--i)Tab_Shader[i]->unbind();};
 
         void setTexture(const char *nom,const char* Filename);
         void setTexture(const char *nom,sf::Texture* Texture);
-        inline void setTexture(const char* nom){for(int i = Tab_Shader.size()-1;i>=0;--i)Tab_Shader[i]->SetParameter(nom, sf::Shader::CurrentTexture);};
+        inline void setTexture(const char* nom){for(int i = Tab_Shader.size()-1;i>=0;--i)Tab_Shader[i]->setParameter(nom, sf::Shader::CurrentTexture);};
 
     private :
         // affichage d'informations de compilation dans log.txt

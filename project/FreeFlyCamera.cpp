@@ -10,7 +10,7 @@ sf::Vector2i old_Pos;
 FreeFlyCamera::FreeFlyCamera(const btVector3 & position)
 {
     Position = position;
-    old_Pos = sf::Mouse::GetPosition();
+    old_Pos = sf::Mouse::getPosition();
     Avent = btVector3(0.0,0.0,0.0);
     //Cible_vision = btVector3(position[0]-1,position[1]+0.01,position[2]-0.01);
     //Cible_vision = position;
@@ -34,7 +34,7 @@ FreeFlyCamera::FreeFlyCamera(const btVector3 & position)
 
 void FreeFlyCamera::MouseMoved()
 {
-    sf::Vector2i Pos =sf::Mouse::GetPosition();
+    sf::Vector2i Pos =sf::Mouse::getPosition();
 
     Theta += (Pos.x - old_Pos.x) *Sensibilitee_souris;
     Phi -= (Pos.y - old_Pos.y)*Sensibilitee_souris;
@@ -46,13 +46,13 @@ void FreeFlyCamera::MouseMoved()
 
 void FreeFlyCamera::MouseWheelMoved(const sf::Event & event)
 {
-    if (event.MouseWheel.Delta >0) //coup de molette vers le haut
+    if (event.mouseWheel.delta >0) //coup de molette vers le haut
     {
         _verticalMotionActive = true;
         _timeBeforeStoppingVerticalMotion = 0.100;
         _verticalMotionDirection = 1;
     }
-    else if (event.MouseWheel.Delta < 0) //coup de molette vers le bas
+    else if (event.mouseWheel.delta < 0) //coup de molette vers le bas
     {
         _verticalMotionActive = true;
         _timeBeforeStoppingVerticalMotion = 0.100;
@@ -63,20 +63,20 @@ void FreeFlyCamera::MouseWheelMoved(const sf::Event & event)
 void FreeFlyCamera::animate(double timestep)
 {
 
-    double realspeed = (sf::Keyboard::IsKeyPressed(KeyConf["boost"]))?2*Speed:Speed;
-    if (sf::Keyboard::IsKeyPressed(KeyConf["forward"]))
+    double realspeed = (sf::Keyboard::isKeyPressed(KeyConf["boost"]))?2*Speed:Speed;
+    if (sf::Keyboard::isKeyPressed(KeyConf["forward"]))
     {
         Position += Avent * (realspeed * timestep);
     }
-    if (sf::Keyboard::IsKeyPressed(KeyConf["backward"]))
+    if (sf::Keyboard::isKeyPressed(KeyConf["backward"]))
     {
         Position -= Avent * (realspeed * timestep);
     }
-    if (sf::Keyboard::IsKeyPressed(KeyConf["strafeDroite"]))
+    if (sf::Keyboard::isKeyPressed(KeyConf["strafeDroite"]))
     {
         Position += Droite * (realspeed * timestep);
     }
-    if (sf::Keyboard::IsKeyPressed(KeyConf["strafe_right"]))
+    if (sf::Keyboard::isKeyPressed(KeyConf["strafe_right"]))
     {
         Position -= Droite * (realspeed * timestep);
     }

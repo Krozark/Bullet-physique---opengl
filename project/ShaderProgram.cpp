@@ -11,7 +11,7 @@ ShaderProgram::ShaderProgram(const char *File,sf::Shader::Type Type)
     printLog("Creation du programme de shader");
 
     sf::Shader* shader=new sf::Shader();
-    if (shader->LoadFromFile(File,Type))
+    if (shader->loadFromFile(File,Type))
     {
         std::stringstream out;
         out<<"ajout du shader "<<File<<" qui a le type "<<(sf::Shader::Type)Type;
@@ -31,7 +31,7 @@ ShaderProgram::ShaderProgram(const char *Vert,const char *Frag)
     printLog("Creation du programme de shader");
     sf::Shader* shader=new sf::Shader();
 
-    if (shader->LoadFromFile(Vert,Frag))
+    if (shader->loadFromFile(Vert,Frag))
     {
         std::stringstream out;
         out<<"ajout du shader chargeants les fichiers"<<Vert<<" et "<<Frag;
@@ -69,9 +69,9 @@ void ShaderProgram::printLog(std::string pbs)
 void ShaderProgram::setTexture(const char *nom,const char* Filename)
 {
     sf::Texture* Texture = new sf::Texture();
-    if(!Texture->LoadFromFile(Filename))
+    if(!Texture->loadFromFile(Filename))
     {
-        Texture->SetSmooth(true);
+        Texture->setSmooth(true);
         printLog(std::string("Erreur de chargement du fichier ")+Filename);
         delete Texture;
     }
@@ -79,16 +79,16 @@ void ShaderProgram::setTexture(const char *nom,const char* Filename)
     {
         Tab_Texture.push_back(Texture);
         for (int i=Tab_Shader.size()-1;i>=0;--i)
-            Tab_Shader[i]->SetParameter(nom,*Texture);
+            Tab_Shader[i]->setParameter(nom,*Texture);
 
     }
 };
 
 void ShaderProgram::setTexture(const char *nom,sf::Texture* Texture)
 {
-    Texture->SetSmooth(true);
+    Texture->setSmooth(true);
     for (int i=Tab_Shader.size()-1;i>=0;--i)
-        Tab_Shader[i]->SetParameter(nom,*Texture);
+        Tab_Shader[i]->setParameter(nom,*Texture);
 };
 
 
