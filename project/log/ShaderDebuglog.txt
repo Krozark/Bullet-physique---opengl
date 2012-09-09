@@ -13218,3 +13218,73 @@ _________________________
 ShaderProgram: Destruction du shader et des textures
 _________________________
 
+ShaderProgram: Creation du programme de shader
+ShaderProgram: ajout du shader shader/mur.frag qui a le type 1
+ShaderProgram: Creation du programme de shader
+ShaderProgram: ajout du shader shader/mur.frag qui a le type 1
+ShaderProgram: Destruction du shader et des textures
+_________________________
+
+ShaderProgram: Destruction du shader et des textures
+_________________________
+
+ShaderProgram: Creation du programme de shader
+ShaderProgram: ajout du shader shader/mur.frag qui a le type 1
+ShaderProgram: Creation du programme de shader
+ShaderProgram: ajout du shader shader/mur.frag qui a le type 1
+ShaderProgram: Destruction du shader et des textures
+_________________________
+
+ShaderProgram: Destruction du shader et des textures
+_________________________
+
+ShaderProgram: Creation du programme de shader
+ShaderProgram: ajout du shader shader/mur.frag qui a le type 1
+ShaderProgram: Creation du programme de shader
+ShaderProgram: ajout du shader shader/mur.frag qui a le type 1
+ShaderProgram: Destruction du shader et des textures
+_________________________
+
+ShaderProgram: Destruction du shader et des textures
+_________________________
+
+ShaderProgram: Creation du programme de shader
+ShaderProgram: ajout du shader shader/mur.frag qui a le type 1
+ShaderProgram: Creation du programme de shader
+ShaderProgram: ajout du shader shader/mur.frag qui a le type 1
+ShaderProgram: Destruction du shader et des textures
+_________________________
+
+ShaderProgram: Destruction du shader et des textures
+_________________________
+
+ShaderProgram: Creation du programme de shader
+ShaderProgram: ajout du shader shader/mur.frag qui a le type 1
+ShaderProgram: Creation du programme de shader
+ShaderProgram: ajout du shader shader/mur.frag qui a le type 1
+ShaderProgram: Destruction du shader et des textures
+_________________________
+
+ShaderProgram: Destruction du shader et des textures
+_________________________
+
+ShaderProgram: Creation du programme de shader
+ShaderProgram: ajout du shader shader/mur.frag qui a le type 1
+ShaderProgram: Creation du programme de shader
+ShaderProgram: ajout du shader shader/mur.frag qui a le type 1
+ShaderProgram: Destruction du shader et des textures
+_________________________
+
+ShaderProgram: Destruction du shader et des textures
+_________________________
+
+ShaderProgram: Creation du programme de shader
+ShaderProgram: ajout du shader shader/mur.frag qui a le type 1
+ShaderProgram: Creation du programme de shader
+ShaderProgram: ajout du shader shader/mur.frag qui a le type 1
+ShaderProgram: Destruction du shader et des textures
+_________________________
+
+ShaderProgram: Destruction du shader et des textures
+_________________________
+

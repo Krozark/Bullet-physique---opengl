@@ -21,10 +21,10 @@ FreeFlyCamera::FreeFlyCamera(const btVector3 & position)
     Speed = 50;
     Sensibilitee_souris = 0.8;
     _verticalMotionActive = false;
-    KeyConf["forward"] = sf::Keyboard::Z;
-    KeyConf["backward"] = sf::Keyboard::S;
-    KeyConf["strafeDroite"] = sf::Keyboard::Q;
-    KeyConf["strafe_right"] = sf::Keyboard::D;
+    KeyConf["forward"] = sf::Keyboard::Up;
+    KeyConf["backward"] = sf::Keyboard::Down;
+    KeyConf["strafe_left"] = sf::Keyboard::Left;
+    KeyConf["strafe_right"] = sf::Keyboard::Right;
     KeyConf["boost"] = sf::Keyboard::LShift;
 
 
@@ -72,7 +72,7 @@ void FreeFlyCamera::animate(double timestep)
     {
         Position -= Avent * (realspeed * timestep);
     }
-    if (sf::Keyboard::isKeyPressed(KeyConf["strafeDroite"]))
+    if (sf::Keyboard::isKeyPressed(KeyConf["strafe_left"]))
     {
         Position += Droite * (realspeed * timestep);
     }
