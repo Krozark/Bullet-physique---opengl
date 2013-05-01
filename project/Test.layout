@@ -8,9 +8,9 @@
 		<Cursor position="6584" topLine="164" />
 	</File>
 	<File name="Fenettre.hpp" open="1" top="0" tabpos="2">
-		<Cursor position="150" topLine="22" />
+		<Cursor position="150" topLine="13" />
 	</File>
-	<File name="FreeFlyCamera.cpp" open="1" top="1" tabpos="5">
+	<File name="FreeFlyCamera.cpp" open="1" top="0" tabpos="5">
 		<Cursor position="342" topLine="11" />
 	</File>
 	<File name="FreeFlyCamera.hpp" open="0" top="0" tabpos="3">
@@ -22,17 +22,17 @@
 	<File name="ObGL.hpp" open="0" top="0" tabpos="0">
 		<Cursor position="83" topLine="0" />
 	</File>
-	<File name="Object.cpp" open="0" top="0" tabpos="5">
-		<Cursor position="792" topLine="15" />
+	<File name="Object.cpp" open="1" top="1" tabpos="7">
+		<Cursor position="1667" topLine="22" />
 	</File>
 	<File name="Object.hpp" open="0" top="0" tabpos="4">
 		<Cursor position="1031" topLine="12" />
 	</File>
 	<File name="ShaderProgram.cpp" open="1" top="0" tabpos="6">
-		<Cursor position="2365" topLine="51" />
+		<Cursor position="2365" topLine="42" />
 	</File>
 	<File name="ShaderProgram.hpp" open="1" top="0" tabpos="4">
-		<Cursor position="305" topLine="0" />
+		<Cursor position="408" topLine="0" />
 	</File>
 	<File name="main.cpp" open="1" top="0" tabpos="1">
 		<Cursor position="367" topLine="0" />

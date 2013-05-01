@@ -65,7 +65,7 @@ RigideBox::~RigideBox()
     {
         Program->Bind();
         glCallList(RigideBox::ListeAffichage);//liste d'affichage
-        Program->Unbind();
+        //Program->Unbind();
     }
     else
         glCallList(RigideBox::ListeAffichage);//liste d'affichage

@@ -14,7 +14,7 @@ class ShaderProgram
         ~ShaderProgram();
 
         inline void Bind(){for(int i = Tab_Shader.size()-1;i>=0;--i)Tab_Shader[i]->bind();};
-        inline void Unbind(){for(int i = Tab_Shader.size()-1;i>=0;--i)Tab_Shader[i]->unbind();};
+        //inline void Unbind(){for(int i = Tab_Shader.size()-1;i>=0;--i)Tab_Shader[i]->unbind();};
 
         void setTexture(const char *nom,const char* Filename);
         void setTexture(const char *nom,sf::Texture* Texture);
