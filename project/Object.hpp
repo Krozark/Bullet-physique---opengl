@@ -9,7 +9,7 @@ class Object
 {
     public:
         Object(float mass,btDiscreteDynamicsWorld* World,btVector3 position);
-        ~Object();
+        virtual ~Object();
         inline btCollisionShape* GetShape(){return Shape;};
         inline btDefaultMotionState* GetMotionState(){return MotionState;};
         virtual void DrawGL() =0;

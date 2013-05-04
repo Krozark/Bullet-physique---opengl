@@ -5,10 +5,10 @@
 		<Cursor position="5742" topLine="207" />
 	</File>
 	<File name="Fenettre.cpp" open="1" top="0" tabpos="3">
-		<Cursor position="6584" topLine="164" />
+		<Cursor position="3909" topLine="100" />
 	</File>
 	<File name="Fenettre.hpp" open="1" top="0" tabpos="2">
-		<Cursor position="150" topLine="13" />
+		<Cursor position="150" topLine="0" />
 	</File>
 	<File name="FreeFlyCamera.cpp" open="1" top="0" tabpos="5">
 		<Cursor position="342" topLine="11" />
@@ -23,16 +23,16 @@
 		<Cursor position="83" topLine="0" />
 	</File>
 	<File name="Object.cpp" open="1" top="1" tabpos="7">
-		<Cursor position="1667" topLine="22" />
+		<Cursor position="1254" topLine="21" />
 	</File>
-	<File name="Object.hpp" open="0" top="0" tabpos="4">
-		<Cursor position="1031" topLine="12" />
+	<File name="Object.hpp" open="1" top="0" tabpos="8">
+		<Cursor position="267" topLine="0" />
 	</File>
 	<File name="ShaderProgram.cpp" open="1" top="0" tabpos="6">
 		<Cursor position="2365" topLine="42" />
 	</File>
 	<File name="ShaderProgram.hpp" open="1" top="0" tabpos="4">
-		<Cursor position="408" topLine="0" />
+		<Cursor position="404" topLine="0" />
 	</File>
 	<File name="main.cpp" open="1" top="0" tabpos="1">
 		<Cursor position="367" topLine="0" />

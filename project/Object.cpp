@@ -27,6 +27,8 @@ RigideObject::RigideObject(float mass,btDiscreteDynamicsWorld* World,btVector3 p
 
 RigideObject::~RigideObject()
 {
+        delete MotionState;
+    delete Shape;
     delete body;
 }
 /// RIGIDE BOX
@@ -49,6 +51,8 @@ RigideBox::~RigideBox()
 {
 //    --Nb;
    // if (Nb==0)
+       delete MotionState;
+    delete Shape;
         glDeleteLists(RigideBox::ListeAffichage, 1);
 };
 

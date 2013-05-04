@@ -13,7 +13,7 @@ class ShaderProgram
         ShaderProgram(const char *Vert,const char *Frag);
         ~ShaderProgram();
 
-        inline void Bind(){for(int i = Tab_Shader.size()-1;i>=0;--i)Tab_Shader[i]->bind();};
+        inline void Bind(){for(int i = Tab_Shader.size()-1;i>=0;--i)sf::Shader::bind(Tab_Shader[i]);};
         //inline void Unbind(){for(int i = Tab_Shader.size()-1;i>=0;--i)Tab_Shader[i]->unbind();};
 
         void setTexture(const char *nom,const char* Filename);
